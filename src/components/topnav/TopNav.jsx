@@ -62,9 +62,7 @@ const Topnav = () => {
             renderFooter={() => <Link to="/">View All</Link>}
           />
         </div>
-        <div className="topnav__right-item">
-          {/* <ThemeMenu /> */} Theme menu
-        </div>
+        <div className="topnav__right-item">{/* <ThemeMenu /> */}</div>
       </div>
     </div>
   );
