@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import user_image from "../../assets/images/tuat.png";
-//import ThemeMenu from "../thememenu/ThemeMenu";
+import ThemeMenu from "../thememenu/ThemeMenu";
 import notifications from "../../assets/JsonData/notification.json";
 import user_menu from "../../assets/JsonData/user_menus.json";
 import Dropdown from "../dropdown/Dropdown";
@@ -62,7 +62,7 @@ const Topnav = () => {
             renderFooter={() => <Link to="/">View All</Link>}
           />
         </div>
-        <div className="topnav__right-item">{/* <ThemeMenu /> */}</div>
+        <div className="topnav__right-item"><ThemeMenu /></div>
       </div>
     </div>
   );
